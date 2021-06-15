@@ -7,6 +7,9 @@ namespace JsonInventory
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Json Inventory Management");
+            Console.WriteLine("Checking Prodects Price");
+            Detail Data = new Detail();
+            Data.GetData();
         }
     }
 }
